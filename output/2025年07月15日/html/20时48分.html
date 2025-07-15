@@ -1,0 +1,114 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 203</p><p>生成时间: 2025-07-15 20:48:35</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 特朗普</td>
+                    <td class="count">35</td>
+                    <td class="percentage">17.24%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3751163" target="_blank" class="news-link">美国6月核心CPI同比上涨2.9%，环比0.2%，连续5个月低于预期！</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时48分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2086171?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美国6月CPI同比增长2.7%，预估为2.6%，前值为2.4%；6月CPI环比增长0.3%，预估为0.3%，前值为0.1%。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时48分</font></div><br>[华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3751111" target="_blank" class="news-link">黄仁勋：美国政府已批准出口许可，将开始向中国市场销售H20芯片</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时48分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8l0iG7fYHVx" target="_blank" class="news-link">特朗普威胁对俄征收100%关税，中方回应</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时48分</font><br>[华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3751099" target="_blank" class="news-link">特朗普所谓“对俄重大声明”揭晓，市场反应：又给50天？TACO！油价应声重挫</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时48分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31178236" target="_blank" class="news-link">特朗普以“严厉”关税威胁俄罗斯50天内达成俄乌协议</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时48分</font><br>[财联社-热门] <a href="https://www.cls.cn/detail/2085726" target="_blank" class="news-link">特朗普威胁对俄征收100%关税，外交部回应</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时48分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8l0U1JPArDG" target="_blank" class="news-link">最后通牒！特朗普要“弃俄援乌”了？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时48分</font><br><div class='new-title'>🆕 [华尔街见闻-实时] <a href="https://wallstreetcn.com/livenews/2942752" target="_blank" class="news-link">美国6月核心CPI环比 0.2%，预期 0.3%，前值 0.1%。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时48分</font></div><br>[华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3751076" target="_blank" class="news-link">特朗普以“严厉”关税威胁俄罗斯50天内达成俄乌协议</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时48分</font><br>[财联社-热门] <a href="https://www.cls.cn/detail/2085579" target="_blank" class="news-link">特朗普VS鲍威尔！谁更“懂”美国经济 今晚CPI揭晓答案</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时48分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8l0Ocx7BMhl" target="_blank" class="news-link">特朗普对俄设50天期限，欧盟外长先“恼了”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时48分</font><br><div class='new-title'>🆕 [华尔街见闻-实时] <a href="https://wallstreetcn.com/livenews/2942751" target="_blank" class="news-link">美国6月CPI同比 2.7%，预期 2.6%，前值 2.4%。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时48分</font></div><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31182701" target="_blank" class="news-link">黄仁勋：美国政府已批准出口许可，将开始向中国销售H20芯片</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时48分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8l0stRczzhT" target="_blank" class="news-link">特朗普问泽连斯基，若美国提供远程武器，乌克兰能否打击莫斯科</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时48分</font><br><div class='new-title'>🆕 [华尔街见闻-实时] <a href="https://wallstreetcn.com/livenews/2942750" target="_blank" class="news-link">美国6月核心CPI同比 2.9%，预期 2.9%，前值 2.8%。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻-实时] <a href="https://wallstreetcn.com/livenews/2942749" target="_blank" class="news-link">美国6月CPI环比 0.3%，预期 0.3%，前值 0.1%。</a> [6] <font color='grey'>- 20时48分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5038165" target="_blank" class="news-link">美股盘前要点 | 美国6月CPI数据重磅来袭！美国批准英伟达H20芯片对华销售</a> [6] <font color='grey'>- 20时48分</font></div><br>[凤凰网] <a href="https://news.ifeng.com/c/8l0QEhY2eDW" target="_blank" class="news-link">北约秘书长再回应叫特朗普“爸爸”，狂拍马屁</a> [7] <font color='grey'>- 20时48分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3751154" target="_blank" class="news-link">苹果5亿美元押注美国唯一稀土商，强化本土供应链布局</a> [7] <font color='grey'>- 20时48分</font><br>[华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3751080" target="_blank" class="news-link">特朗普：我上电视，震撼市场；财长贝森特已让市场平静下来，这是好事</a> [8] <font color='grey'>- 20时48分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31181621" target="_blank" class="news-link">对俄加关税、对乌“送”导弹，特朗普所谓“重大声明”揭晓</a> [9] <font color='grey'>- 20时48分</font><br>[凤凰网] <a href="https://v.ifeng.com/c/8l0bubI8RKN" target="_blank" class="news-link">加州州长痛骂特朗普：他是狗**的，谁让他先骂我的</a> [9] <font color='grey'>- 20时48分</font><br><div class='new-title'>🆕 [华尔街见闻-实时] <a href="https://wallstreetcn.com/livenews/2942746" target="_blank" class="news-link">美国7月纽约联储制造业指数 5.5，预期 -9.2，前值 -16。</a> [9] <font color='grey'>- 20时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻-实时] <a href="https://wallstreetcn.com/livenews/2942733" target="_blank" class="news-link">英媒称特朗普曾鼓动乌克兰打击莫斯科</a> [10] <font color='grey'>- 20时48分</font></div><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3751155" target="_blank" class="news-link">贝森特：鲍威尔继任者的正式程序已启动，遴选将按照特朗普的速度来进行</a> [10] <font color='grey'>- 20时48分</font><br>[财联社-深度] <a href="https://www.cls.cn/detail/2086039" target="_blank" class="news-link">物以“稀土”为贵？美国国防部之后 苹果也看上了这家公司</a> [11] <font color='grey'>- 20时48分</font><br><div class='new-title'>🆕 [华尔街见闻-实时] <a href="https://wallstreetcn.com/livenews/2942744" target="_blank" class="news-link">摩根大通美国国债客户调查显示净多头占比降至六周以来最低</a> [12] <font color='grey'>- 20时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻-实时] <a href="https://wallstreetcn.com/livenews/2942743" target="_blank" class="news-link">提醒：北京时间20:30，将公布美国6月CPI，7月纽约联储制造业指数；加拿大6月CPI。</a> [13] <font color='grey'>- 20时48分</font></div><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31176567" target="_blank" class="news-link">特朗普称关税让美国上月赚了250亿美元，网友辣评：美国人能看到吗？</a> [14] <font color='grey'>- 20时48分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3751115" target="_blank" class="news-link">美国6月CPI前瞻：关税影响料将显现，会打击降息预期么？</a> [14] <font color='grey'>- 20时48分</font><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2086144?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">摩根大通美国国债客户调查显示净多头占比降至六周以来最低</a> [16] <font color='grey'>- 20时48分</font></div><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E7%89%B9%E6%9C%97%E6%99%AE%E5%A8%81%E8%83%81%E5%AF%B9%E4%BF%84%E5%BE%81100%25%E5%85%B3%E7%A8%8E" target="_blank" class="news-link">中方回应特朗普威胁对俄征100%关税</a> [17] <font color='grey'>- 20时48分</font><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2085726" target="_blank" class="news-link">特朗普威胁对俄征收100%关税，外交部回应</a> [24] <font color='grey'>- 20时48分</font></div><br>[财联社-深度] <a href="https://www.cls.cn/detail/2085579" target="_blank" class="news-link">特朗普VS鲍威尔！谁更“懂”美国经济 今晚CPI揭晓答案</a> [25] <font color='grey'>- 20时48分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">关税</td>
+                    <td class="count">7</td>
+                    <td class="percentage">3.45%</td>
+                    <td class="titles">[百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E7%BE%8E%E8%AE%AE%E5%91%98%E5%A8%81%E8%83%81%E5%AF%B9%E5%8D%8E%E5%BE%81500%25%E5%85%B3%E7%A8%8E" target="_blank" class="news-link">中方回应美议员威胁对华征500%关税</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时48分</font><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/premium/articles/3751161?layout=wscn-layout" target="_blank" class="news-link">谈判未平，关税已起，美股是否“高处不胜寒”？【纽约Talk 10】</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时48分</font></div><br>[凤凰网] <a href="https://news.ifeng.com/c/8l0icEFQDl0" target="_blank" class="news-link">外交部回应美方500%关税威胁</a> [6] <font color='grey'>- 20时48分</font><br><div class='new-title'>🆕 [财联社-热门] <a href="https://www.cls.cn/detail/2085746" target="_blank" class="news-link">美参议员威胁称购买俄能源的国家将面临500%关税，外交部回应</a> [13] <font color='grey'>- 20时48分</font></div><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3751133" target="_blank" class="news-link">美股Q2财报季来袭：盈利预期大幅降温、关税成最大变数、紧盯四大关键主题</a> [17] <font color='grey'>- 20时48分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3751126" target="_blank" class="news-link">30%关税，对欧盟意味着什么？</a> [24] <font color='grey'>- 20时48分</font><br>[华尔街见闻-实时] <a href="https://wallstreetcn.com/livenews/2942716" target="_blank" class="news-link">俄专家：俄将冷静对待美关税威胁 美供乌武器投入战场还需时间</a> [30] <font color='grey'>- 20时48分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">芯片 半导体 光刻机</td>
+                    <td class="count">5</td>
+                    <td class="percentage">2.46%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2086121" target="_blank" class="news-link">炬芯科技上半年净利同比预增122.28% 端侧音频芯片收入数倍增长</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时48分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2085785?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【风口研报·公司】FAU是连接光引擎与计算芯片的“神经中枢”，CPO架构下单设备用量可达传统光模块的3-5倍，这家公司已经战略布局；高端CCL和高阶PCB带动特种电子布需求，这家公司已开始大规模扩产</a> [7] <font color='grey'>- 20时48分</font></div><br>[财联社-深度] <a href="https://www.cls.cn/detail/2085998" target="_blank" class="news-link">黄仁勋访华重磅官宣 H20芯片恢复对华销售 A股云计算板块应声大涨</a> [14] <font color='grey'>- 20时48分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E8%8B%B1%E4%BC%9F%E8%BE%BE%E5%B0%86%E5%AF%B9%E5%8D%8E%E9%94%80%E5%94%AEH20%E8%8A%AF%E7%89%87" target="_blank" class="news-link">中方回应英伟达将对华销售H20芯片</a> [15] <font color='grey'>- 20时48分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E9%BB%84%E4%BB%81%E5%8B%8B%EF%BC%9A%E5%B0%86%E5%90%91%E4%B8%AD%E5%9B%BD%E5%B8%82%E5%9C%BA%E9%94%80%E5%94%AEH20%E8%8A%AF%E7%89%87" target="_blank" class="news-link">黄仁勋：将向中国市场销售H20芯片</a> [23] <font color='grey'>- 20时48分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">美股</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.99%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3751139" target="_blank" class="news-link">美股盘前，标普500指数期货涨0.46%，英伟达盘前涨超3%，AMD涨逾5%，日本长债收益率走高</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时48分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2086160?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美股盘前要闻一览</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时48分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">A股</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.49%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2086125" target="_blank" class="news-link">高凯技术启动A股IPO辅导 系电驱动精密流体控制核心部件研发商 曾冲刺科创板未果</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时48分</font></div></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 20 条)</h3>
+            <h4>财联社-热门 (1 条)</h4><ul><li><a href="https://www.cls.cn/detail/2085746" target="_blank" class="news-link">美参议员威胁称购买俄能源的国家将面临500%关税，外交部回应</a> [13]</li></ul><h4>华尔街见闻-实时 (8 条)</h4><ul><li><a href="https://wallstreetcn.com/livenews/2942752" target="_blank" class="news-link">美国6月核心CPI环比 0.2%，预期 0.3%，前值 0.1%。</a> <font color='red'><strong>[3]</strong></font></li><li><a href="https://wallstreetcn.com/livenews/2942751" target="_blank" class="news-link">美国6月CPI同比 2.7%，预期 2.6%，前值 2.4%。</a> <font color='red'><strong>[4]</strong></font></li><li><a href="https://wallstreetcn.com/livenews/2942750" target="_blank" class="news-link">美国6月核心CPI同比 2.9%，预期 2.9%，前值 2.8%。</a> <font color='red'><strong>[5]</strong></font></li><li><a href="https://wallstreetcn.com/livenews/2942749" target="_blank" class="news-link">美国6月CPI环比 0.3%，预期 0.3%，前值 0.1%。</a> [6]</li><li><a href="https://wallstreetcn.com/livenews/2942746" target="_blank" class="news-link">美国7月纽约联储制造业指数 5.5，预期 -9.2，前值 -16。</a> [9]</li><li><a href="https://wallstreetcn.com/livenews/2942733" target="_blank" class="news-link">英媒称特朗普曾鼓动乌克兰打击莫斯科</a> [10]</li><li><a href="https://wallstreetcn.com/livenews/2942744" target="_blank" class="news-link">摩根大通美国国债客户调查显示净多头占比降至六周以来最低</a> [12]</li><li><a href="https://wallstreetcn.com/livenews/2942743" target="_blank" class="news-link">提醒：北京时间20:30，将公布美国6月CPI，7月纽约联储制造业指数；加拿大6月CPI。</a> [13]</li></ul><h4>华尔街见闻-最新 (3 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3751163" target="_blank" class="news-link">美国6月核心CPI同比上涨2.9%，环比0.2%，连续5个月低于预期！</a> <font color='red'><strong>[1]</strong></font></li><li><a href="https://wallstreetcn.com/articles/3751139" target="_blank" class="news-link">美股盘前，标普500指数期货涨0.46%，英伟达盘前涨超3%，AMD涨逾5%，日本长债收益率走高</a> <font color='red'><strong>[2]</strong></font></li><li><a href="https://wallstreetcn.com/premium/articles/3751161?layout=wscn-layout" target="_blank" class="news-link">谈判未平，关税已起，美股是否“高处不胜寒”？【纽约Talk 10】</a> <font color='red'><strong>[4]</strong></font></li></ul><h4>财联社-电报 (4 条)</h4><ul><li><a href="https://api3.cls.cn/share/article/2086171?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美国6月CPI同比增长2.7%，预估为2.6%，前值为2.4%；6月CPI环比增长0.3%，预估为0.3%，前值为0.1%。</a> <font color='red'><strong>[1]</strong></font></li><li><a href="https://api3.cls.cn/share/article/2086160?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美股盘前要闻一览</a> <font color='red'><strong>[5]</strong></font></li><li><a href="https://api3.cls.cn/share/article/2085785?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【风口研报·公司】FAU是连接光引擎与计算芯片的“神经中枢”，CPO架构下单设备用量可达传统光模块的3-5倍，这家公司已经战略布局；高端CCL和高阶PCB带动特种电子布需求，这家公司已开始大规模扩产</a> [7]</li><li><a href="https://api3.cls.cn/share/article/2086144?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">摩根大通美国国债客户调查显示净多头占比降至六周以来最低</a> [16]</li></ul><h4>财联社-深度 (3 条)</h4><ul><li><a href="https://www.cls.cn/detail/2086125" target="_blank" class="news-link">高凯技术启动A股IPO辅导 系电驱动精密流体控制核心部件研发商 曾冲刺科创板未果</a> <font color='red'><strong>[4]</strong></font></li><li><a href="https://www.cls.cn/detail/2086121" target="_blank" class="news-link">炬芯科技上半年净利同比预增122.28% 端侧音频芯片收入数倍增长</a> <font color='red'><strong>[5]</strong></font></li><li><a href="https://www.cls.cn/detail/2085726" target="_blank" class="news-link">特朗普威胁对俄征收100%关税，外交部回应</a> [24]</li></ul><h4>格隆汇 (1 条)</h4><ul><li><a href="https://www.gelonghui.com/news/5038165" target="_blank" class="news-link">美股盘前要点 | 美国6月CPI数据重磅来袭！美国批准英伟达H20芯片对华销售</a> [6]</li></ul></div>
+        </body>
+        </html>
+        
